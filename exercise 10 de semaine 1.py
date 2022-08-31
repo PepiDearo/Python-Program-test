@@ -8,7 +8,9 @@ print('Le nombre d\'heures travailles?')
 nombreDheureTravailles = int(input())
 salaire = tauxHoraire*nombreDheureTravailles
 
-salaireNet = salaire*0.7
+print('Quel est le taux d\'imposition?, ce nombre doit etre entre 0 et 1')
+tauxImpo = float(input())
+salaireNet = salaire*(1-tauxImpo)
 
 list = ['a','e','i','o','u']
 for vowel in list:
