@@ -7,13 +7,16 @@ tauxHoraire = float(input())
 print('Le nombre d\'heures travailles?')
 nombreDheureTravailles = int(input())
 salaire = tauxHoraire*nombreDheureTravailles
+
+salaireNet = salaire*0.7
+
 list = ['a','e','i','o','u']
 for vowel in list:
     if(prenom[0].casefold() == vowel): #pour les voyelles
-        print('Voici le salaire d\'' + prenom + ': ' + str(salaire))
+        print('Voici le salaire net d\'' + prenom + ': ' + str(salaireNet))
         break
     else: #pour les consonnes
-        print('Voici le salaire de ' + prenom + ': ' + str(salaire))
+        print('Voici le salaire net de ' + prenom + ': ' + str(salaireNet))
         break
 
 
