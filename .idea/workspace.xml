@@ -34,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise structure conditionelle.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -134,7 +134,7 @@
       <workItem from="1661959118716" duration="9000" />
       <workItem from="1662567014395" duration="633000" />
       <workItem from="1662567732642" duration="148000" />
-      <workItem from="1662568139226" duration="574000" />
+      <workItem from="1662568139226" duration="681000" />
     </task>
     <servers />
   </component>
